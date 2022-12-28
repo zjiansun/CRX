@@ -1,0 +1,16 @@
+{
+    "name": "Function Grapher",
+    "description": "Graphs the math function you highlight in a web page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["contextMenus", "storage", "tabs", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+     "16": "globalGoogle16.png",
+     "48": "globalGoogle48.png",
+    "128": "globalGoogle128.png"
+   }
+  }
+  
